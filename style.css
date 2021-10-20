@@ -117,19 +117,60 @@ section {
           align-items: center;
 }
 
+button {
+  width: 5em;
+  height: 25px;
+  outline: none;
+  border: none;
+  background-color: hotpink;
+  color: white;
+  border-radius: 5px;
+}
+
+input {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #dadada;
+  margin-bottom: 1em;
+  width: 90%;
+}
+
+h1 {
+  text-align: center;
+  color: #444444;
+  font-family: arial;
+  margin-bottom: 1em;
+}
+
+p {
+  margin-top: 1em;
+  color: #a0a0a0;
+}
+
+a {
+  margin-left: 1em;
+  text-decoration: none;
+  font-family: arial;
+  color: black;
+}
+
 .active .caja1 form {
-  left: 100px;
+  right: 0px;
 }
 
 .active .caja1 .boximg {
-  left: 100px;
+  right: -400px;
+  z-index: 1;
 }
 
 .active .caja2 form {
-  right: 100px;
+  left: 0px;
 }
 
-.active .caja2 .boximg {
-  right: 100px;
+.active .caja2 .boximg img {
+  right: 0px;
+  z-index: 4;
 }
 /*# sourceMappingURL=style.css.map */
